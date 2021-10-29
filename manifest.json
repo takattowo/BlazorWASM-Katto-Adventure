@@ -1,7 +1,7 @@
 {
   "name": "Shit WASMing",
   "short_name": "Shit WASMing",
-  "start_url": "./",
+  "start_url": "./BlazorWASM-Katto-Adventure",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#03173d",
