@@ -13,6 +13,10 @@
     }
 }
 
+.GameScene {
+    background-image: url(/BlazorWASM-Katto-Adventure/sprites/background.jpg)!important;
+}
+
 .PlayerModel {
     width: calc(16px * var(--pixel-size));
     height: calc(16px * var(--pixel-size));
@@ -29,7 +33,7 @@
 
 .Bulletto {
     animation: moveSpritesheet 1s steps(3) infinite;
-    background-image: url(BlazorWASM-Katto-Adventure/sprites/water_ball.png);
+    background-image: url(/BlazorWASM-Katto-Adventure/sprites/water_ball.png);
     width: calc(8px * var(--pixel-size));
     height: calc(10px * var(--pixel-size));
     pointer-events: none;
@@ -47,14 +51,14 @@
 }
 
 .BlueFireBallIdle {
-    background-image: url(BlazorWASM-Katto-Adventure/sprites/fire_ball.png);
+    background-image: url(/BlazorWASM-Katto-Adventure/sprites/fire_ball.png);
     background-position: -75px -324px !important;
     width: calc(73px * var(--pixel-size)) !important;
     filter: invert(98%);
 }
 
 .FireBallIdle {
-    background-image: url(BlazorWASM-Katto-Adventure/sprites/fire_ball.png);
+    background-image: url(/BlazorWASM-Katto-Adventure/sprites/fire_ball.png);
     background-position: -75px -324px !important;
     width: calc(73px * var(--pixel-size)) !important;
 }
