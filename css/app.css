@@ -65,7 +65,7 @@
 
 .Catto {
     animation: moveSpritesheet 1s steps(5) infinite;
-    background-image: url(BlazorWASM-Katto-Adventure/sprites/cat/catto.png);
+    background-image: url(/BlazorWASM-Katto-Adventure/sprites/cat/catto.png)
     background-position: -83px -179px;
     width: calc(16px * var(--pixel-size));
     height: calc(16px * var(--pixel-size));
